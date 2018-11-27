@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: <http://sebagomez.github.io/homepage/sitemap.xml>
+Sitemap: <http://sebagomez.github.io/sitemap.xml>
