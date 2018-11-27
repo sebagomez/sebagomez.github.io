@@ -1,0 +1,1 @@
+docker run --rm -v c:/code/sebastian/Jalpc:/srv/jekyll -p 4000:4000 -it jekyll/jekyll:builder bash
