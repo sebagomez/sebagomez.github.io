@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/sebagomez
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://sebagomez.github.io
+  * I am sebagomez (https://keybase.io/sebagomez) on keybase.
+  * I have a public key ASB0rWXjG1uLGm0ingSogJy_deOazojQ2h7nFn8AWUXFWAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01013095318cacb711421b62625db49b37ba187b32d05d762186f63f7c33523bec2a0a",
+      "host": "keybase.io",
+      "kid": "012074ad65e31b5b8b1a6d229e04a8809cbf75e39ace88d0da1ee7167f005945c5580a",
+      "uid": "b14622f48724d25f07364b17293ba400",
+      "username": "sebagomez"
+    },
+    "merkle_root": {
+      "ctime": 1558040866,
+      "hash": "84fbe8dffb974a286f44c338102c6832fbadf7a382518d3ec7aa8bb3f38d921d04bc5f064300755c08494dd7a73db3119d7575aba2e26a304f1192ecf740f897",
+      "hash_meta": "79f74936c9a6a847c6ff4ad7ff8c65f9c96179caf84de4209f1d205a10121d36",
+      "seqno": 5388938
+    },
+    "service": {
+      "entropy": "Aiuq2tZ5UjmLjMfeVG48hauy",
+      "hostname": "sebagomez.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.0.0"
+  },
+  "ctime": 1558040889,
+  "expire_in": 504576000,
+  "prev": "d5e1921b6dcac979725b556a600dd59abf7a4dfb2e920f31287fa1c0f9555595",
+  "seqno": 23,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgdK1l4xtbixptIp4EqICcv3Xjms6I0Noe5xZ/AFlFxVgKp3BheWxvYWTESpcCF8Qg1eGSG23KyXlyW1VqYA3Vmr96Tfsukg8xKH+hwPlVVZXEIDNwUDDZXDUQLbI//T63Fno4mw5G5uzmcDlVf0uII8N+AgHCo3NpZ8RA0shuOKdiDG9tYIfyuUsn5c94027Q5BsU8Vckr41vhn2ZFK7+T5Yd3xW5HPapPp3WZbUeRJIFOipTy0VofzSeA6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIMgmjDO09dd+MxA4Yu4NThbIuN8gMWMj9OzB3/Jedd/No3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/sebagomez
+
+==================================================================
