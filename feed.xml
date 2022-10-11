@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>sebagomez</title>
-    <description>Seba Gomez's blog,use Jekyll and github pages.</description>
+    <description>Seba Gomez&apos;s blog,use Jekyll and github pages.</description>
     <link>http://sebagomez.github.io/</link>
     <atom:link href="http://sebagomez.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 30 Aug 2021 08:04:50 -0500</pubDate>
-    <lastBuildDate>Mon, 30 Aug 2021 08:04:50 -0500</lastBuildDate>
-    <generator>Jekyll v3.8.6</generator>
+    <pubDate>Tue, 11 Oct 2022 14:39:09 -0500</pubDate>
+    <lastBuildDate>Tue, 11 Oct 2022 14:39:09 -0500</lastBuildDate>
+    <generator>Jekyll v4.2.2</generator>
     
   </channel>
 </rss>

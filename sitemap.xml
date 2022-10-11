@@ -66,4 +66,8 @@
         <loc>http://sebagomez.github.io/sitemap.xml</loc>
     </url>
 
+    <url>
+        <loc>http://sebagomez.github.io/static/css/custom.css.map</loc>
+    </url>
+
 </urlset>
