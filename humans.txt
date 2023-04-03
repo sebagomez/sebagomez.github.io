@@ -11,7 +11,7 @@ https://github.com/jarrekk/Jalpc
 
 
 /* SITE */
-	Last update: 2022/10/11
+	Last update: 2023/04/03
 	Language: English
 	Doctype:HTML5
 	IDE: VSCode
