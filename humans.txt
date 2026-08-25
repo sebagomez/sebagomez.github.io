@@ -1,6 +1,6 @@
 /* TEAM */
 	Me: Sebastián Gómez
-	Contact: sebastiangomezcorrea [at] Google Email Service, you know, the one that starts with a G
+	Contact: 
 	Twitter: @sebagomez
 	From:Montevideo, Uruguay
 
@@ -11,7 +11,7 @@ https://github.com/jarrekk/Jalpc
 
 
 /* SITE */
-	Last update: 2023/04/03
+	Last update: 2026/08/25
 	Language: English
 	Doctype:HTML5
 	IDE: VSCode
