@@ -1,0 +1,22 @@
+name: CSS
+
+# The generated CSS is committed so GitHub Pages can serve the repo as-is.
+# This job rebuilds it and fails if the committed file is out of date.
+on:
+  push:
+    branches: [master]
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - name: Fail if assets/css/app.css is stale
+        run: git diff --exit-code -- assets/css/app.css

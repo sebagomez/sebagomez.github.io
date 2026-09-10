@@ -1,73 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-
-    <url>
-        <loc>http://sebagomez.github.io/404.html</loc>
-    </url>
-
-    <url>
-        <loc>http://sebagomez.github.io/blog/</loc>
-    </url>
-
-    <url>
-        <loc>http://sebagomez.github.io/static/css/custom.css</loc>
-    </url>
-
-    <url>
-        <loc>http://sebagomez.github.io/database/</loc>
-    </url>
-
-    <url>
-        <loc>http://sebagomez.github.io/donate/</loc>
-    </url>
-
-    <url>
-        <loc>http://sebagomez.github.io/feed.xml</loc>
-    </url>
-
-    <url>
-        <loc>http://sebagomez.github.io/html/</loc>
-    </url>
-
-    <url>
-        <loc>http://sebagomez.github.io/humans.txt</loc>
-    </url>
-
-    <url>
-        <loc>http://sebagomez.github.io/</loc>
-    </url>
-
-    <url>
-        <loc>http://sebagomez.github.io/life/</loc>
-    </url>
-
-    <url>
-        <loc>http://sebagomez.github.io/linux/</loc>
-    </url>
-
-    <url>
-        <loc>http://sebagomez.github.io/mac/</loc>
-    </url>
-
-    <url>
-        <loc>http://sebagomez.github.io/python/</loc>
-    </url>
-
-    <url>
-        <loc>http://sebagomez.github.io/robots.txt</loc>
-    </url>
-
-    <url>
-        <loc>http://sebagomez.github.io/search.json</loc>
-    </url>
-
-    <url>
-        <loc>http://sebagomez.github.io/sitemap.xml</loc>
-    </url>
-
-    <url>
-        <loc>http://sebagomez.github.io/static/css/custom.css.map</loc>
-    </url>
-
+  <url>
+    <loc>https://sebagomez.github.io/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
 </urlset>

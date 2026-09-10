@@ -1,2 +1,4 @@
 User-agent: *
-Sitemap: <http://sebagomez.github.io/sitemap.xml>
+Allow: /
+
+Sitemap: https://sebagomez.github.io/sitemap.xml
