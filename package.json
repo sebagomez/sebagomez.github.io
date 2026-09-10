@@ -1,0 +1,27 @@
+{
+  "name": "sebagomez.github.io",
+  "version": "1.0.0",
+  "description": "Source for https://sebagomez.github.io",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./assets/css/app.css --minify",
+    "dev": "tailwindcss -i ./src/input.css -o ./assets/css/app.css --watch",
+    "serve": "python3 -m http.server 4000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebagomez/sebagomez.github.io.git"
+  },
+  "keywords": [],
+  "author": "Sebastián Gómez",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sebagomez/sebagomez.github.io/issues"
+  },
+  "homepage": "https://github.com/sebagomez/sebagomez.github.io#readme",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "tailwindcss": "^4.3.3"
+  },
+  "private": true
+}

@@ -1,27 +1,62 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>404 Error</title>
-    <!-- Mainly CSS -->
-    <link href="/static/assets/app-20181120.min.css" rel="stylesheet">
-    <link href="/static/css/custom.css" rel="stylesheet">
-</head>
-<body class="gray-bg">
-    <div class="middle-box text-center animated fadeInDown">
-        <h1>404</h1>
-        <h3 class="font-bold">Page Not Found</h3>
-        <div class="error-desc">
-            <p>
-            Sorry, but the page you are looking for has not been found. Try checking the URL for error, then hit the refresh button on your browser or try found something else in my website.
-            </p>
-            <div>
-                <a class="btn btn-primary" href="/">Home</a>
-            </div>
-        </div>
-    </div>
-    <!-- Mainly scripts -->
-    <script src="/static/assets/app-20181120.min.js"></script>
-</body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>404 — Page not found</title>
+    <link rel="icon" href="/assets/favicon.ico" />
+    <link rel="stylesheet" href="/assets/css/app.css" />
+    <script>
+      (function () {
+        var stored = null;
+        try {
+          stored = localStorage.getItem("theme");
+        } catch (e) {}
+        var prefersDark =
+          window.matchMedia &&
+          window.matchMedia("(prefers-color-scheme: dark)").matches;
+        document.documentElement.classList.toggle(
+          "dark",
+          stored ? stored === "dark" : prefersDark
+        );
+      })();
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T66SRS9W9E"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      // page_path records which URL was missing, not just "/404.html".
+      gtag('config', 'G-T66SRS9W9E', {
+        page_path: '/404.html?from=' + location.pathname + location.search
+      });
+    </script>
+  </head>
+  <body
+    class="flex min-h-screen items-center justify-center bg-white px-5 text-slate-700 antialiased dark:bg-slate-950 dark:text-slate-300"
+  >
+    <main class="text-center">
+      <p
+        class="font-mono text-xs font-semibold tracking-[0.18em] text-slate-400 uppercase dark:text-slate-500"
+      >
+        Error 404
+      </p>
+      <h1
+        class="mt-4 text-4xl font-bold tracking-tight text-slate-900 dark:text-slate-50"
+      >
+        Page not found
+      </h1>
+      <p class="mt-4 text-slate-600 dark:text-slate-400">
+        That page does not exist. Maybe it never did.
+      </p>
+      <a
+        href="/"
+        class="mt-8 inline-block rounded-lg bg-slate-900 px-4 py-2.5 text-sm font-medium text-white transition hover:bg-slate-700 dark:bg-slate-100 dark:text-slate-900 dark:hover:bg-white"
+        >Go home</a
+      >
+    </main>
+  </body>
 </html>
