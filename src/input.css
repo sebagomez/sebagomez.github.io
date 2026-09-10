@@ -1,4 +1,9 @@
-@import "tailwindcss";
+/* source(none) turns off Tailwind's automatic file scanning, so prose in
+   Markdown files cannot leak utilities into the build. Only the two pages
+   below are scanned for class names. Add a new page here if one appears. */
+@import "tailwindcss" source(none);
+@source "../index.html";
+@source "../404.html";
 
 /* Tell Tailwind v4 that dark mode is driven by a class on <html>,
    not by the OS media query. The inline script in index.html sets it. */
